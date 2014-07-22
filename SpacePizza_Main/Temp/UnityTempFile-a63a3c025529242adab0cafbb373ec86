@@ -40,5 +40,6 @@
 -define:UNITY_EDITOR_OSX
 'Assets/Scripts/Basic_Character_Move.cs'
 'Assets/Scripts/Camera.cs'
+'Assets/Scripts/CameraFollow.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
