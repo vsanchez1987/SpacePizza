@@ -8,11 +8,6 @@ using System.Collections;
 
 public class Camera : MonoBehaviour {
 
-	public float doesNothing;
-
-
-
-
 
 
 	// how far the camera can follow the character on the x and y axis
