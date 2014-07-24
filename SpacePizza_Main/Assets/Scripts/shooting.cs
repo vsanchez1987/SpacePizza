@@ -16,7 +16,7 @@ public class shooting : MonoBehaviour {
 		bullet = GameObject.Find("Bullet");
 		aim = GameObject.Find("Aim");
 		//gun = GameObject.Find("Gun");
-
+		//COMMENT FOR GITHUB
 	}
 	
 	// Update is called once per frame
