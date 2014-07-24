@@ -5,6 +5,8 @@ using System.Collections;
  * screen resolution is 800 x 600
  */
 
+// this is a test for git hub
+
 public class Camera : MonoBehaviour {
 
 	// how far the camera can follow the character on the x and y axis
