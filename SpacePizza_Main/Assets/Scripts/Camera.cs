@@ -5,10 +5,15 @@ using System.Collections;
  * screen resolution is 800 x 600
  */
 
-// this is a test for git hub
-// this is the second test for git hub
 
 public class Camera : MonoBehaviour {
+
+	public float doesNothing;
+
+
+
+
+
 
 	// how far the camera can follow the character on the x and y axis
 	public float xMargin = 1f;  // Distance the player can move before the camera follows on the x
