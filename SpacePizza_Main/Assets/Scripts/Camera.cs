@@ -6,6 +6,7 @@ using System.Collections;
  */
 
 // this is a test for git hub
+// this is the second test for git hub
 
 public class Camera : MonoBehaviour {
 
