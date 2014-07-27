@@ -1,8 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Camera.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HealthBar.cs">
     <Files>
-      <File FileName="Assets/Scripts/Camera.cs" Line="10" Column="1" />
+      <File FileName="Temp/ParsedCombinations-AlphaTest-VertexLit.shader" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Camera.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/shooting.cs" Line="1" Column="1" />
+      <File FileName="Assets/_LifeBAr/LifeBar.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/HealthBar.cs" Line="43" Column="1" />
+      <File FileName="Assets/Scripts/HealthScript.cs" Line="7" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

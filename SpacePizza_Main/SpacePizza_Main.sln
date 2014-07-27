@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{3EB71B91-D7E1-196B-1E82-20D5B74BC05F}") = "SpacePizza_Main", "Assembly-CSharp.csproj", "{04A0A354-53C6-281E-06FD-C4DA2F89F9DB}"
 EndProject
+Project("{3EB71B91-D7E1-196B-1E82-20D5B74BC05F}") = "SpacePizza_Main", "Assembly-UnityScript.unityproj", "{8227CA2C-CE7D-7DFF-8042-90096117FDE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{04A0A354-53C6-281E-06FD-C4DA2F89F9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04A0A354-53C6-281E-06FD-C4DA2F89F9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04A0A354-53C6-281E-06FD-C4DA2F89F9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8227CA2C-CE7D-7DFF-8042-90096117FDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8227CA2C-CE7D-7DFF-8042-90096117FDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8227CA2C-CE7D-7DFF-8042-90096117FDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8227CA2C-CE7D-7DFF-8042-90096117FDE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-														GlobalSection(MonoDevelopProperties) = preSolution
+																													GlobalSection(MonoDevelopProperties) = preSolution
 =======
 									GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> master
