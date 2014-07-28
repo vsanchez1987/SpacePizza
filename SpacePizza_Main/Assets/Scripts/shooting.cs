@@ -22,7 +22,7 @@ public class shooting : MonoBehaviour {
 
 		//bullet = Rigidbody.Find("Bullet");
 		//aim = GameObject.Find("Aim");
-		player = GameObject.Find("player");
+		player = GameObject.Find("Player");
 		//gun = GameObject.Find("gun");
 		//COMMENT FOR GITHUB
 	}
@@ -43,7 +43,7 @@ public class shooting : MonoBehaviour {
 			speed = 50;
 		}
 
-		this.transform.position = player.transform.position + new Vector3(look,0.0f,0.0f);
+	//	this.transform.position = player.transform.position + new Vector3(look,0.0f,0.0f);
 
 		//direction = aim.transform.position - gun.transform.position;
 
