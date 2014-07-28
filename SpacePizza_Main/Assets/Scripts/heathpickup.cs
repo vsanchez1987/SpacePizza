@@ -1,7 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class heathpickup : MonoBehaviour {
+
+	public int canPickUp = 0;
+
+
 
 	IEnumerator TempDestroyObject(GameObject obj,float respawnTime)
 	{
@@ -31,6 +36,8 @@ public class heathpickup : MonoBehaviour {
 		{
 			//Destroy(this.gameObject);
 			//TempDestroyObject(this.gameObject,1.0f);
+
+			canPickUp += 1;
 			Debug.Log("picked up health");
 		}
 	}

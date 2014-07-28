@@ -10,7 +10,7 @@ public class HealthBar : MonoBehaviour {
 	*/
 
 	public float playerHealth;
-	public Texture2D SliceOfLife;
+	public Texture3D SliceOfLife;
 	public Texture2D RedBar;
 	public Texture2D BackgroundBase;
 
@@ -36,6 +36,15 @@ public class HealthBar : MonoBehaviour {
 	public float healthy = 60;
 	public float width;
 
+	// I am using this to hold how many cans we have drawn on the screen.
+
+	public heathpickup heathpickup;
+	private shooting shooting;
+	public int HMCans = heathpickup.canPickUp;
+
+
+
+
 	void Start()
 	{
 		playerHealth = 100;
@@ -51,7 +60,18 @@ public class HealthBar : MonoBehaviour {
 		Rect backCase = new Rect (backCaseX, backCaseY, width, height);
 		Rect indiCan = new Rect (canPosX, canPosY, canWidth, canHeight);
 		GUI.DrawTexture (backCase, cansCase);
-		GUI.DrawTexture (indiCan, cans);
+
+		//HMCans += heathpickup.GetComponent<heathpickup> ().canPickUp;
+
+
+		if(HMCans == 1 && HMCans <= 4)
+		{
+			Debug.Log("drawing a can texture");
+			GUI.DrawTexture (indiCan, cans);
+		}
+
+
+	//	GUI.DrawTexture (indiCan, cans);
 
 
 
