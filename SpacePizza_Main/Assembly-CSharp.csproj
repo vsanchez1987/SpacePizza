@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Destroy_bullets.cs" />
      <Compile Include="Assets\Scripts\EnemyOffense.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\canInventory.cs" />
      <Compile Include="Assets\Scripts\canPickUp.cs" />
      <Compile Include="Assets\Scripts\heathpickup.cs" />
      <Compile Include="Assets\Scripts\movePlatform.cs" />

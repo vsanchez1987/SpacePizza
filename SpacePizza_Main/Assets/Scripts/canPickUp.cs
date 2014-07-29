@@ -3,7 +3,13 @@ using System.Collections;
 
 public class canPickUp : MonoBehaviour {
 
+	canInventory canInventory;
+	GameObject player;
 
+	void Start()
+	{
+		player = GameObject.FindGameObjectWithTag ("Player");
+	}
 	
 	IEnumerator TempDestroyObject(GameObject obj,float respawnTime)
 	{
@@ -24,6 +30,7 @@ public class canPickUp : MonoBehaviour {
 			TempDestroyObject(this.gameObject,1.0f);
 			Debug.Log("picked up health");
 		}
+		
 	}*/
 	
 	
