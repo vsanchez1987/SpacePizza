@@ -10,8 +10,8 @@ public class HealthBar : MonoBehaviour {
 	*/
 
 	public float playerHealth;
-	public Texture3D SliceOfLife;
-	public Texture2D RedBar;
+	public Texture2D SliceOfLife;
+	// public Texture2D RedBar;
 	public Texture2D BackgroundBase;
 
 	// Cans textures
@@ -33,7 +33,7 @@ public class HealthBar : MonoBehaviour {
 	public float x = 0;
 	public float y = 0;
 	public float height = 60;
-	public float healthy = 60;
+	public float healthy;
 	public float width;
 
 	// I am using this to hold how many cans we have drawn on the screen.
@@ -95,7 +95,10 @@ public class HealthBar : MonoBehaviour {
 		}
 
 		// changes the size of the material using the Alpha cutoff
+
 		mat.SetFloat ("_Cutoff", healthy);	
+		//mat.SetInt ("_Cutoff", healthy);	
+
 
 
 		// once the players health reaches 0 then a new scene will start. signifying the players death.	
