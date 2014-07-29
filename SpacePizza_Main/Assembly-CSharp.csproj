@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scenes\movePlatform.cs" />
      <Compile Include="Assets\Scripts\Camera.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Controller.cs" />
@@ -55,7 +56,6 @@
      <Compile Include="Assets\Scripts\RotatableGuiItem.cs" />
      <Compile Include="Assets\Scripts\heathpickup.cs" />
      <Compile Include="Assets\Scripts\shooting.cs" />
-     <Compile Include="Assets\movePlatform.cs" />
      <None Include="Assets\Shaders\SimpleShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
