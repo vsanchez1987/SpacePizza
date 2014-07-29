@@ -40,7 +40,7 @@ public class HealthBar : MonoBehaviour {
 
 	public heathpickup heathpickup;
 	private shooting shooting;
-	public int HMCans = heathpickup.canPickUp;
+//	public int HMCans = heathpickup.canPickUp;
 
 
 
@@ -62,14 +62,14 @@ public class HealthBar : MonoBehaviour {
 		GUI.DrawTexture (backCase, cansCase);
 
 		//HMCans += heathpickup.GetComponent<heathpickup> ().canPickUp;
-
+		/*
 
 		if(HMCans == 1 && HMCans <= 4)
 		{
 			Debug.Log("drawing a can texture");
 			GUI.DrawTexture (indiCan, cans);
 		}
-
+*/
 
 	//	GUI.DrawTexture (indiCan, cans);
 
