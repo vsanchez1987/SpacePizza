@@ -27,7 +27,7 @@ public class HealthBar : MonoBehaviour {
 
 	// I am using this to hold how many cans we have drawn on the screen.
 
-	public heathpickup heathpickup;
+	// public heathpickup heathpickup;
 
 
 

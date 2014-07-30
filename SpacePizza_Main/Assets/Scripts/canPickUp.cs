@@ -35,14 +35,18 @@ public class canPickUp : MonoBehaviour {
 	
 	
 	void OnTriggerEnter(Collider other) {
-		Debug.Log("trigger");
+		Debug.Log("Trigger");
 		if (other.gameObject.tag == "Player")
 		{
 			Destroy(this.gameObject);
 			//TempDestroyObject(this.gameObject,1.0f);
-			
-			//+= 1;
-			Debug.Log("picked up health");
+
+			canInventory = (canInventory)player.GetComponent(typeof(canInventory));
+
+			canInventory.HMCans += 1;
+
+
+			Debug.Log("picked up can");
 		}
 	}
 }
