@@ -104,6 +104,10 @@ public class canInventory : MonoBehaviour {
 
 				// GUI.DrawTexture(indiCan(backCaseX + 2), cans);
 			}
+			else if(HMCans > 6)
+			{
+				HMCans = 6;
+			}
 			else if(HMCans < 1)
 			{
 				HMCans = 0;
