@@ -4,8 +4,15 @@ using System.Collections;
 
 public class heathpickup : MonoBehaviour {
 
-	public int canPickUp = 0;
+	HealthBar healthBar;
+	public GameObject player;
 
+	//HealthBar healthBar = (HealthBar)player.GetComponent(typeof(HealthBar));
+
+	void Start()
+	{
+		player = GameObject.FindGameObjectWithTag ("Player");
+	}
 
 
 	IEnumerator TempDestroyObject(GameObject obj,float respawnTime)
@@ -32,23 +39,18 @@ public class heathpickup : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		Debug.Log("trigger");
-		if (other.gameObject.tag == "player" || other.gameObject.tag == "enemy")
+		if (other.gameObject.tag == "Player")
 		{
-			//Destroy(this.gameObject);
+			Destroy(this.gameObject);
 			//TempDestroyObject(this.gameObject,1.0f);
 
-			canPickUp += 1;
+			healthBar = (HealthBar)player.GetComponent(typeof(HealthBar));
+
+			healthBar.playerHealth += 10;
+
 			Debug.Log("picked up health");
 		}
 	}
 		
-		// Use this for initialization
-	void Start () {
 
-	}
-
-	// Update is called once per frame
-	void Update () {
-
-	}
 }
