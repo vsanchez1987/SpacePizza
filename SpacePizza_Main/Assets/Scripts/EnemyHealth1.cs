@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿/*
+using UnityEngine;
 using System.Collections;
 
 public class EnemyHealth1 : MonoBehaviour {
@@ -34,3 +35,5 @@ public class EnemyHealth1 : MonoBehaviour {
 	
 
 }
+
+*/

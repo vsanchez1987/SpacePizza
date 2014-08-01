@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\canInventory.cs" />
      <Compile Include="Assets\Scripts\canPickUp.cs" />
      <Compile Include="Assets\Scripts\heathpickup.cs" />
+     <Compile Include="Assets\Scripts\item_rotate.cs" />
      <Compile Include="Assets\Scripts\movePlatform.cs" />
      <Compile Include="Assets\Scripts\shooting.cs" />
      <None Include="Assets\Shaders\SimpleShader.shader" />
