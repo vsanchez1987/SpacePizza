@@ -23,7 +23,7 @@ public class shooting : MonoBehaviour {
 
 		//bullet = Rigidbody.Find("Bullet");
 		//aim = GameObject.Find("Aim");
-		player = GameObject.Find("Player");
+		player = GameObject.Find("player");
 		//gun = GameObject.Find("gun");
 		//COMMENT FOR GITHUB
 	}
@@ -44,7 +44,7 @@ public class shooting : MonoBehaviour {
 			speed = 50;
 		}
 
-	//	this.transform.position = player.transform.position + new Vector3(look,0.0f,0.0f);
+		this.transform.position = player.transform.position + new Vector3(look,0.0f,0.0f);
 
 		//direction = aim.transform.position - gun.transform.position;
 
@@ -70,6 +70,7 @@ public class shooting : MonoBehaviour {
 
 		if (Input.GetMouseButtonDown (1)) 
 			{
+				
 
 				Rigidbody instantiatedSoda = Instantiate (soda, this.transform.position + new Vector3 (0.0f, 2.0f, 0.0f), this.transform.rotation) as Rigidbody;
 				//bullet = Instantiate(Resources.Load("Bullet")) as GameObject;

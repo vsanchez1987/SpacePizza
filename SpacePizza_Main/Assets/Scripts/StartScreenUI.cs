@@ -83,8 +83,8 @@ public class StartScreenUI : MonoBehaviour
 	
 	private void Update()
 	{
-		Width = Screen.width * 0.2f * WidthScale;
-		Height = Screen.height * 0.5f * HeightScale;
+		Width = Screen.width / 2 * 0.2f * WidthScale;
+		Height = Screen.height / 2 * 0.5f * HeightScale;
 
 
 
