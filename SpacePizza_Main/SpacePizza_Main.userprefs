@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyHealth1.cs">
+    <Files>
+      <File FileName="Assets/Scripts/canPickUp.cs" Line="17" Column="30" />
+      <File FileName="Assets/Scripts/HealthBar.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/heathpickup.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/canInventory.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/shooting.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyOffense.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/StartScreenUI.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyHealth1.cs" Line="38" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

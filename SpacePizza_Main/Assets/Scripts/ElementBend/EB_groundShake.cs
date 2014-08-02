@@ -49,7 +49,7 @@ public class EB_groundShake : MonoBehaviour {
 		for(float i = 0.0f; i <20.0f; i++){
 
 
-			Rigidbody instantiatedStone = Instantiate(stone, currPos + new Vector3(i,-1.0f,0.0f) , this.transform.rotation) as Rigidbody;
+			Rigidbody instantiatedStone = Instantiate(stone, currPos + new Vector3(i+i,-1.0f,0.0f) , this.transform.rotation) as Rigidbody;
 			
 			instantiatedStone.velocity = transform.TransformDirection(new Vector3(0, 1, 0));
 
