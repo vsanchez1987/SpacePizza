@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\EnemyHealth1.cs" />
      <Compile Include="Assets\Scripts\EnemyOffense.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\Retry.cs" />
      <Compile Include="Assets\Scripts\StartScreenUI.cs" />
      <Compile Include="Assets\Scripts\canInventory.cs" />
      <Compile Include="Assets\Scripts\canPickUp.cs" />
