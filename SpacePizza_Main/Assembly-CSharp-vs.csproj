@@ -59,10 +59,12 @@
      <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Retry.cs" />
      <Compile Include="Assets\Scripts\StartScreenUI.cs" />
+     <Compile Include="Assets\Scripts\bulletDestroy.cs" />
      <Compile Include="Assets\Scripts\canInventory.cs" />
      <Compile Include="Assets\Scripts\canPickUp.cs" />
      <Compile Include="Assets\Scripts\enemyAI.cs" />
      <Compile Include="Assets\Scripts\enemyHealth.cs" />
+     <Compile Include="Assets\Scripts\enemyShoot.cs" />
      <Compile Include="Assets\Scripts\heathpickup.cs" />
      <Compile Include="Assets\Scripts\item_rotate.cs" />
      <Compile Include="Assets\Scripts\movePlatform.cs" />
