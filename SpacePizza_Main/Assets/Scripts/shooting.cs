@@ -9,8 +9,10 @@ public class shooting : MonoBehaviour {
 	//private Vector3 direction;
 	//public GameObject aim;
 	public GameObject player;
+
+	//private HealthBar health;
 	//public GameObject gun;
-	canInventory canInventory;
+	public canInventory canInventory;
 
 	private float look = 1.0f;
 
@@ -44,7 +46,7 @@ public class shooting : MonoBehaviour {
 			speed = 50;
 		}
 
-		this.transform.position = player.transform.position + new Vector3(look,0.0f,0.0f);
+		//this.transform.position = player.transform.position + new Vector3(look,0.0f,0.0f);
 
 		//direction = aim.transform.position - gun.transform.position;
 
@@ -54,6 +56,9 @@ public class shooting : MonoBehaviour {
 			//bullet = Instantiate(Resources.Load("Bullet")) as GameObject;
 
 			instantiatedBullet.velocity = transform.TransformDirection(new Vector3(speed, 0, 0));
+
+			//health = (HealthBar)player.GetComponent(typeof(HealthBar));
+			//health.playerHealth -= 10;
 
 			//instantiatedBullet.transform.position = instantiatedBullet.transform.position + new Vector3(0.0f,0.0f,0.0f);
 
@@ -68,27 +73,27 @@ public class shooting : MonoBehaviour {
 		//=====================================================================================================================
 
 
-		if (Input.GetMouseButtonDown (1)) 
-			{
-				
 
-				Rigidbody instantiatedSoda = Instantiate (soda, this.transform.position + new Vector3 (0.0f, 2.0f, 0.0f), this.transform.rotation) as Rigidbody;
-				//bullet = Instantiate(Resources.Load("Bullet")) as GameObject;
-	
-				instantiatedSoda.velocity = transform.TransformDirection (new Vector3 (speed / 4, 0, 0));
+			if (Input.GetMouseButtonDown (1)) {
 
-				canInventory = (canInventory)player.GetComponent (typeof(canInventory));
+				if(canInventory.HMCans >= 1)
+				{
+					Rigidbody instantiatedSoda = Instantiate (soda, this.transform.position + new Vector3 (0.0f, 2.0f, 0.0f), this.transform.rotation) as Rigidbody;
+					//bullet = Instantiate(Resources.Load("Bullet")) as GameObject;
 
-				canInventory.HMCans -= 1;
-	
-				//instantiatedBullet.transform.position = instantiatedBullet.transform.position + new Vector3(0.0f,0.0f,0.0f);
-	
-				//bullet.transform.position = gun.transform.position;
-				//bullet.transform.position = player.transform.position + new Vector3(1.0f,1.0f,0.0f);
-				//print(instantiatedBullet.transform.position.y);
-				//bullet.rigidbody.AddForce(Vector3.right * 10);
+					instantiatedSoda.velocity = transform.TransformDirection (new Vector3 (speed / 4, 0, 0));
 
-			} 
-			
+					canInventory = (canInventory)player.GetComponent (typeof(canInventory));
+
+					canInventory.HMCans -= 1;
+
+					//instantiatedBullet.transform.position = instantiatedBullet.transform.position + new Vector3(0.0f,0.0f,0.0f);
+
+					//bullet.transform.position = gun.transform.position;
+					//bullet.transform.position = player.transform.position + new Vector3(1.0f,1.0f,0.0f);
+					//print(instantiatedBullet.transform.position.y);
+					//bullet.rigidbody.AddForce(Vector3.right * 10);
+			}
+		} 
 	}
 }
